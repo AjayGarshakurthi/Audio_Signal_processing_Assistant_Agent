@@ -75,9 +75,10 @@ st.markdown("<div class='sub'>Powered by IBM watsonx Orchestrate • GPT-OSS 120
 # Initialize Model
 # -------------------------
 
-llm = ChatWxO.from_instance_credentials(
+llm = ChatWxO(
     instance_url=INSTANCE_URL,
     api_key=API_KEY,
+    auth_type="mcsp_v2",
     model=MODEL,
     temperature=0.2,
     max_tokens=1000
