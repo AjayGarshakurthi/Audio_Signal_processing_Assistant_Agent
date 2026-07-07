@@ -9,9 +9,10 @@ from ibm_watsonx_orchestrate_sdk.langchain import ChatWxO
 # Load Environment Variables
 # -------------------------
 
-load_dotenv()
-API_KEY = "your_api_key"
-INSTANCE_URL = "https://api.eu-de.watson-orchestrate.cloud.ibm.com/instances/a7ed3234-4690-455c-a0bc-6506915d82d2" 
+import streamlit as st
+
+API_KEY = st.secrets["API_KEY"]
+INSTANCE_URL = st.secrets["INSTANCE_URL"]
 MODEL = "groq/openai/gpt-oss-120b"
 
 # -------------------------
