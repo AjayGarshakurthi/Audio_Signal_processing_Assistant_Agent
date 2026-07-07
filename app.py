@@ -11,7 +11,7 @@ from ibm_watsonx_orchestrate_sdk.langchain import ChatWxO
 
 load_dotenv()
 
-API_KEY = "Your_API_key"
+API_KEY = "Your_iam_api_key"
 INSTANCE_URL = "https://api.eu-de.watson-orchestrate.cloud.ibm.com/instances/a7ed3234-4690-455c-a0bc-6506915d82d2" 
 MODEL = "groq/openai/gpt-oss-120b"
 
@@ -78,7 +78,7 @@ st.markdown("<div class='sub'>Powered by IBM watsonx Orchestrate • GPT-OSS 120
 llm = ChatWxO(
     instance_url=INSTANCE_URL,
     api_key=API_KEY,
-    auth_type="mcsp",
+    auth_type="ibm_iam",
     model=MODEL,
     temperature=0.2,
     max_tokens=1000
