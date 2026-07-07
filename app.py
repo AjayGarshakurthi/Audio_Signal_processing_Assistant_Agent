@@ -12,7 +12,7 @@ from ibm_watsonx_orchestrate_sdk.langchain import ChatWxO
 load_dotenv()
 
 API_KEY = "Your_API_key"
-INSTANCE_URL = "Your_instance_url" 
+INSTANCE_URL = "https://api.eu-de.watson-orchestrate.cloud.ibm.com/instances/a7ed3234-4690-455c-a0bc-6506915d82d2" 
 MODEL = "groq/openai/gpt-oss-120b"
 
 # -------------------------
