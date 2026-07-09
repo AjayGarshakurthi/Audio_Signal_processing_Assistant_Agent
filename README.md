@@ -38,7 +38,6 @@ This project provides an intelligent AI assistant capable of answering Audio Sig
 - HTML
 - CSS
 - GitHub
-- Streamlit Community Cloud
 
 ---
 
