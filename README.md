@@ -4,6 +4,10 @@ An AI-powered educational assistant built using **IBM watsonx Orchestrate**, **G
 
 ---
 
+Live demo: https://audiosignalprocessingassistantagent-4aqbzczot2zuj4sejyoq59.streamlit.app/
+
+---
+
 ## 📌 Project Overview
 
 Audio Signal Processing is an important subject in Electronics, Communication Engineering, and Digital Signal Processing. Understanding concepts like filtering, sampling, aliasing, Fourier Transform, FIR, IIR, and operational amplifiers can be challenging.
